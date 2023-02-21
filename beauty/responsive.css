@@ -1,0 +1,169 @@
+.responsive-input{
+    display: none;
+}
+.responsive-input input{
+    margin: 1rem 0;
+    width: 100vh;
+    height: 2rem;
+    border: 2px solid rgb(113, 110, 110);
+    border-radius: 3px;
+    padding-left: 2rem;}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 850px){
+    .left a{
+        width: 100%;
+   }
+   .right{
+    display: none;
+   }
+   #logo{
+    display: none;
+   }
+   .responsive-input{
+    display: block;
+    margin: 1rem 0;
+    }
+    .part1{
+        display: none;
+    
+    }
+    .part2{
+        width: 100%;
+    }
+    .part2 p{
+        display: none;
+    }
+    .responsive-sec1-pt2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+#aadha{
+    display: none;
+}
+.sm-banner img{
+    width: 50%;
+}
+.catalogue{
+    margin: 1rem 0.5rem;
+}
+
+.hidden{
+    display: none;
+}
+.section3-part2 img{
+    width: 90vw;
+    margin: 1rem 5% 0 5%;
+}
+.resp-brown{
+    
+    width: 100%;
+    overflow: hidden;
+}
+.section4-part1 div{
+    margin-left: 1rem;
+}
+#peace{
+    display: none;
+}
+#peace2{
+    display: block;
+}
+.repair-items{
+    width: 100%;
+    overflow: hidden;
+    margin:5rem 0 0 0;
+}
+#yellow{
+    display: none;
+}
+#yb2{
+    display: block;
+}
+.section5{
+    display: flex;
+    flex-direction: column;
+}
+#fwd{
+    display: none;
+}
+#bck{
+    display: none;
+}
+.section52{
+    margin-left: 10%;
+    width: 90%;
+    display: flex;
+    overflow: hidden;
+}
+.card{
+    position: relative;
+    top: -2rem;
+}
+.section51 p{
+    text-align: center;
+    width: 100%;
+}
+#choose2{
+    display: block;
+    height: 100%;
+    width: 80%;
+    margin: 0 10%;
+}
+.review-cmnt{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.ladki{
+    display: none;
+}
+.refer{
+    display: none;
+}
+.stamp p{
+    width: 70%;
+}
+.stamp img{
+    width: 50%;
+}
+.foot{
+    display: none;
+}
+.foot-nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0 0 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 100%;
+}
+.foot-nav a{
+    color: black;
+    opacity: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+.foot-nav img{
+    padding-bottom: 0.5rem;
+    width: 10vh;
+}
+
+
+
+
+
+
+
+}
